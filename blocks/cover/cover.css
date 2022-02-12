@@ -1,0 +1,23 @@
+.cover{
+  max-width: 1184px;
+  position: relative;
+  padding-bottom: calc((200 / 320) * 100%);
+}
+
+@media screen and (min-width: 768px) {
+  .cover{
+    padding-bottom: calc((480 / 768) * 100%);
+  }  
+}  
+
+@media screen and (min-width: 1024px) {
+  .cover{
+    padding-bottom: calc((640 / 1024) * 100%);
+  }  
+}  
+
+@media screen and (min-width: 1280px) {
+  .cover{
+    padding-bottom: calc((740 / 1280) * 100%);
+  }  
+}  
