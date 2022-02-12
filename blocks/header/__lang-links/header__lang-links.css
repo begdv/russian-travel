@@ -1,0 +1,15 @@
+.header__lang-links{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 62px;
+  margin: 0;
+  padding-top: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-links{
+    padding-top: 18px;
+    width: 78px;
+  }  
+} 

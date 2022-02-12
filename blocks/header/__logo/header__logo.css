@@ -1,9 +1,12 @@
-.cards{
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 920px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.header__logo{
+  width: 142px;
+  height: 42px;
+  background-size: cover;
 }
+
+@media screen and (min-width: 768px) {
+  .header__logo{
+    width: 176px;
+    height: 52px;
+  }  
+}  
