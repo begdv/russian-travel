@@ -1,9 +1,13 @@
-.cards{
+.lead{
+  position: relative;
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 920px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  max-width: 928px;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead{
+    max-width: 984px;
+  }  
 }

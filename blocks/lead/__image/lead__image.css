@@ -1,9 +1,14 @@
-.cards{
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 920px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.lead__image{
+  object-fit: cover;
+  width: minmax(100vw, 928px);
+  height: auto;
+  margin: 0 0 8px;
 }
+
+@media screen and (min-width: 1280px) {
+  .lead__image{
+    width: minmax(100vw, 984px);
+  }  
+}
+
+
