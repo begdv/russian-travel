@@ -1,9 +1,9 @@
-.cards{
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 920px;
+.intro__list{
   list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5;  
+  color: #FFFFFF;
 }

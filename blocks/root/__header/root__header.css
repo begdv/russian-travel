@@ -1,3 +1,21 @@
 .root__header{
-  margin: 0 auto 31px;
+  margin: 16px 16px 46px;
 }
+
+@media screen and (min-width: 768px) {
+  .root__header{
+    margin: 28px 24px 46px;
+  }  
+} 
+
+@media screen and (min-width: 1024px) {
+  .root__header{
+    margin: 28px 48px 46px;
+  }  
+} 
+
+@media screen and (min-width: 1280px) {
+  .root__header{
+    margin: 28px 48px 52px;
+  }  
+} 
