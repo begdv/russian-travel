@@ -1,9 +1,6 @@
-.cards{
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 920px;
-  list-style-type: none;
-  padding: 0;
+.place__image{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
   margin: 0;
 }

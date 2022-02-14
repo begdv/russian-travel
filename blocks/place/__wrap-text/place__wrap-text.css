@@ -1,0 +1,9 @@
+.place__wrap-text{
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .place__wrap-text{
+    display: none;
+  }  
+}

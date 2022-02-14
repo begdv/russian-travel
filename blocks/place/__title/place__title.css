@@ -1,9 +1,25 @@
-.cards{
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 920px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.place__title{
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.09;
+  color: #FFFFFF;
+  margin: 0 0 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .place__title{
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 1.1;
+    margin: 0;
+    padding-right: 12px;
+  }  
+}
+
+@media screen and (min-width: 1024px) {
+  .place__title{
+    max-width: 440px;
+    font-size: 72px;
+    line-height: 1.06;
+  }  
 }

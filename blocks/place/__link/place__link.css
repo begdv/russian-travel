@@ -1,9 +1,6 @@
-.cards{
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 920px;
-  list-style-type: none;
-  padding: 0;
+.place__link{
+  font-size: 18px;
+  line-height: 1.22;
+  color: #FFFFFF;
   margin: 0;
 }

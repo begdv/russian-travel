@@ -1,9 +1,30 @@
-.cards{
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 920px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+.place{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .place{
+    grid-template-columns: 340px auto;
+    row-gap: 48px;
+    column-gap: 28px;
+  }  
+}
+
+@media screen and (min-width: 1024px) {
+  .place{
+    grid-template-columns: 440px auto;
+    row-gap: 48px;
+    column-gap: 32px;
+  }  
+}
+
+@media screen and (min-width: 1280px) {
+  .place{
+    grid-template-columns: 460px auto;
+    row-gap: 48px;
+    column-gap: 40px;
+    max-width: 984px;
+  }  
 }
