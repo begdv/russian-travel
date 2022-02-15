@@ -1,21 +1,21 @@
 .content__intro{
-  margin: 0 0 64px 16px;
+  margin: 0 16px 64px;
 }
 
 @media screen and (min-width: 768px) {
   .content__intro{
-    margin: 0 0 88px 24px;
+    margin: 0 24px 88px;
   }  
 }
 
 @media screen and (min-width: 1024px) {
   .content__intro{
-    margin: 0 0 92px 48px;
+    margin: 0 48px 92px;
   }  
 }
 
 @media screen and (min-width: 1280px) {
   .content__intro{
-    margin: 0 0 92px 148px;
+    margin: 0 148px 92px;
   }  
 }

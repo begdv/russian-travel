@@ -1,9 +1,12 @@
-.cards{
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  width: 920px;
-  list-style-type: none;
-  padding: 0;
+.footer__copyright{
+  font-size: 14px;
+  line-height: 100%;
+  color: #FFFFFF;
   margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__copyright{
+    line-height: 1.14;
+  }  
 }
